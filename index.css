@@ -19,6 +19,15 @@ h1 {
     margin: auto;
 }
 
+img.cooleo {
+    border: 3px solid #6c21ad;
+    
+}
+
+img.Gam {
+    border: 3px solid #21ad52;
+}
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -35,3 +44,32 @@ h1 {
     width: 99%;
     border-top: 3px solid #6c21ad;
 }
+
+
+
+.column {
+    margin:auto;
+    float: center;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.card {
+  background-color: rgba(38, 37, 37, 0.858);
+  padding: 20px;
+  width: 75%;
+  margin: 50px auto auto auto;
+}
+
