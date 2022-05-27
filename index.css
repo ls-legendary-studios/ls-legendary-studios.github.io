@@ -1,0 +1,27 @@
+/* Making page border box */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* Page height and text setting */
+body {
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    color:antiquewhite;
+}
+
+footer {
+    text-align: center;
+    position: bottom;
+    margin: 0;
+    bottom: 0px;
+    color: rgb(17, 22, 41);
+    background-color: lightblue;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    height: auto;
+}
