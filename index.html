@@ -4,16 +4,19 @@
 <head>
     <meta charset="utf-8">
     <link href="index.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legendary Studios</title>
 </head>
 
 <body>
-
+    <div class="navbar">
+       <a>The Jedi Order</a>
+    </div>
     <h1>Welcome to Legendary Studios!</h1>
     <h2>Below are the Owner and Co-Owner of 
         <a
-            href="https://www.roblox.com/groups/8196917/Legendary-Studios#!/about">Legendary Studios</a>, a group on roblox. <br> Current Focus: Project Ignition 
+            href="https://www.roblox.com/groups/8196917/Legendary-Studios#!/about" target="_blank" style="color: #2159ad;">Legendary Studios</a>, a group on roblox. <br> Current Focus: Project Ignition 
     </h2>
 
     <div id="footer" class="cent">
@@ -21,7 +24,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="row" style="border: double #2159ad;">
         <div class="column">
             <h2>Owner, legendarycooleo</h2>
             <img class="cooleo" src="https://tr.rbxcdn.com/c0329024c4c12d47fec85ec014b45adc/150/150/AvatarHeadshot/Png">
@@ -31,6 +34,67 @@
             <img class="Gam" src="https://tr.rbxcdn.com/bb1f60ae8074730b63521dc4037e9247/150/150/AvatarHeadshot/Png">
         </div>
     </div>
+    
 </body>
 
 </html>
+
+<!-- BELOW = Button Animation-->
+<!-- 
+        <!DOCTYPE html>
+    <html>
+    
+    <head>
+        <style>
+            .button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #f4511e;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 28px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+    
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+    
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+    
+            .button:hover span {
+                padding-right: 25px;
+            }
+    
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+        <h2>Animated Button</h2>
+    
+        <button class="button" style="vertical-align:middle"><span>Hover </span></button>
+    
+    </body>
+    
+    </html>
+-->

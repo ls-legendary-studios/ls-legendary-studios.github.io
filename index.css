@@ -1,8 +1,5 @@
 /* Making page border box */
 
-* {
-    box-sizing: border-box;
-}
 
 /* Page height and text setting */
 body {
@@ -10,11 +7,13 @@ body {
     text-align: center;
     background-color: black;
     color: antiquewhite;
-    padding-top: 25px;
 }
 
 h1 {
+    text-align: center;
+    padding: 15px 15px 15px 15px;
     background-color: rgb(28, 27, 27);
+  /*  border: solid #2159ad; */
     width: 50%;
     margin: auto;
 }
@@ -42,7 +41,7 @@ img.Gam {
 #footer.cent {
     margin: auto;
     width: 99%;
-    border-top: 3px solid #6c21ad;
+    border-top: 3px solid #2159ad;
 }
 
 
@@ -60,11 +59,7 @@ img.Gam {
     clear: both;
 }
 
-@media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-    }
-}
+
 
 .card {
   background-color: rgba(38, 37, 37, 0.858);
